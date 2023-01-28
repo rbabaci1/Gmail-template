@@ -1,3 +1,27 @@
-h1 {
-  color: red;
+.top {
+  /* width: 100vw; */
+  background-color: #f6f8fc;
+}
+
+.logo {
+  transform: scale(0.6);
+  border: 1px solid red;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 5px 40px;
+  border: none;
+  background-color: #eaf1fb;
+  outline: none;
+  border-radius: 5px;
+}
+
+.search-icon {
+  position: absolute;
+  transform: scale(0.5);
+  left: 10px;
 }
