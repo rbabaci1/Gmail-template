@@ -6,11 +6,11 @@ body {
 }
 
 .top {
-  background-color: #f6f8fc;
+  /* background-color: #f6f8fc; */
 }
 
 .logo {
-  transform: scale(0.6);
+  transform: scale(0.4);
   cursor: pointer;
 }
 
@@ -23,7 +23,7 @@ body {
   border: none;
   background-color: #eaf1fb;
   outline: none;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 80%;
 }
 
@@ -37,4 +37,35 @@ body {
 .login-icons {
   transform: scale(0.6);
   cursor: pointer;
+}
+
+.middle {
+  /* border: 1px solid red; */
+  padding: 30px 0;
+}
+
+.compose-email {
+  position: relative;
+  background-color: #c2e7ff;
+  border-radius: 10px;
+  padding: 17px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.compose-email p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.compose-email img {
+  position: absolute;
+  transform: scale(0.6);
+  top: 8px;
+  left: 0;
+}
+
+.email-types {
+  display: flex;
+  justify-content: space-around;
 }
