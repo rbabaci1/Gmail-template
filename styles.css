@@ -1,11 +1,17 @@
+body {
+  background-color: #f6f8fc;
+}
+.container {
+  border: 1px solid rgb(177, 176, 176);
+}
+
 .top {
-  /* width: 100vw; */
   background-color: #f6f8fc;
 }
 
 .logo {
   transform: scale(0.6);
-  border: 1px solid red;
+  cursor: pointer;
 }
 
 .search-bar {
@@ -13,15 +19,22 @@
 }
 
 .search-bar input {
-  padding: 5px 40px;
+  padding: 8px 50px;
   border: none;
   background-color: #eaf1fb;
   outline: none;
   border-radius: 5px;
+  width: 80%;
 }
 
 .search-icon {
   position: absolute;
   transform: scale(0.5);
-  left: 10px;
+  left: 20px;
+  top: 3px;
+}
+
+.login-icons {
+  transform: scale(0.6);
+  cursor: pointer;
 }
