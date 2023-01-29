@@ -7,9 +7,9 @@ body {
   /* background-color: #f6f8fc; */
 }
 .container {
-  /* border: 1px solid rgb(177, 176, 176); */
 }
 
+/*****************    LEFT SIDE OF TEMPLATE    *****************/
 .left {
   /* border: 1px solid red; */
   background-color: #f6f8fc;
@@ -68,7 +68,7 @@ body {
 }
 
 .label:hover {
-  background-color: #58a4d7;
+  background-color: #c2e7ff;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -85,24 +85,26 @@ body {
   margin-right: 30px;
 }
 
+/*****************    RIGHT SIDE OF TEMPLATE     ****************/
 .right {
   border: 1px solid rgb(219, 217, 217);
   padding: 10px 20px;
   background-color: #f6f8fc;
 }
 
-.top {
+.right .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(214, 213, 213);
 }
 
-.search-bar {
+.top .search-bar {
   position: relative;
 }
 
-.search-bar input {
+.top .search-bar input {
   padding: 10px 40px;
   background-color: #eaf1fb;
   border: none;
@@ -111,15 +113,21 @@ body {
   border-radius: 10px;
 }
 
-.search-bar img {
+.top .search-bar img {
   transform: scale(0.5);
   position: absolute;
   left: 3px;
   top: 5px;
 }
 
-.login-icons {
+.top .login-icons {
   transform: scale(0.6);
+}
+
+/****************************      *****************************/
+
+.bottom .email-types {
+  padding: 15px 0;
 }
 
 .bottom .email-types {
@@ -127,7 +135,7 @@ body {
   justify-content: space-between;
 }
 
-.email-types a {
+.bottom .email-types a {
   font-size: 18px;
   text-decoration: none;
   font-weight: 500;
