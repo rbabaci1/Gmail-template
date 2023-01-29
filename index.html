@@ -15,38 +15,54 @@
 
   <body>
     <div class="container">
-      <div class="top row align-items-center">
-        <img class="logo col" src="./images/logo.png" alt="logo" />
+      <div class="row">
+        <div class="left col-3">
+          <img class="logo" src="./images/logo.png" alt="logo" />
 
-        <div class="search-bar col-6">
-          <input type="text" placeholder="Search mail" />
-          <img
-            class="search-icon"
-            src="./images/search.png"
-            alt="search icon"
-          />
+          <div>
+            <div class="compose-email">
+              <img src="./images/compose.png" alt="compose email pen" />
+              <p>Compose</p>
+            </div>
+          </div>
+
+          <ul class="left-icons">
+            <li>Inbox</li>
+            <li>Starred</li>
+            <li>Snoozed</li>
+            <li>Sent</li>
+            <li>Drafts</li>
+            <li>More</li>
+          </ul>
+
+          <div class="label">
+            <section>Labels</section>
+            <p>+</p>
+          </div>
         </div>
 
-        <img class="login-icons col" src="./images/login.png" alt="login" />
-      </div>
+        <div class="right col-9">
+          <div class="top">
+            <div class="search-bar">
+              <input type="text" placeholder="Search mail" />
+              <img
+                class="search-icon"
+                src="./images/search.png"
+                alt="search icon"
+              />
+            </div>
 
-      <div class="middle row align-items-center">
-        <div class="compose-email col">
-          <p>Compose</p>
-          <img src="./images/compose.png" alt="compose email pen" />
+            <img class="login-icons" src="./images/login.png" alt="login" />
+          </div>
+
+          <div class="bottom">
+            <div class="email-types">
+              <a href="#">Primary</a>
+              <a href="#">Promotions</a>
+              <a href="#">Social</a>
+            </div>
+          </div>
         </div>
-
-        <div class="email-types col-10">
-          <h5>Primary</h5>
-          <h5>Promotions</h5>
-          <h5>Social</h5>
-        </div>
-      </div>
-
-      <div class="bottom row">
-        <div class="options"></div>
-        <div class="emails"></div>
-        <div class="icons"></div>
       </div>
     </div>
 

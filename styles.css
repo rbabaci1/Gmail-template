@@ -1,17 +1,101 @@
-body {
-  background-color: #f6f8fc;
-}
-.container {
-  border: 1px solid rgb(177, 176, 176);
+/* reset styles */
+p {
+  margin: 0;
 }
 
-.top {
+body {
   /* background-color: #f6f8fc; */
+}
+.container {
+  /* border: 1px solid rgb(177, 176, 176); */
+}
+
+.left {
+  /* border: 1px solid red; */
+  background-color: #f6f8fc;
+  padding: 20px;
 }
 
 .logo {
-  transform: scale(0.4);
+  transform: scale(0.6);
+  position: relative;
+  left: -20px;
+}
+
+.compose-email {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  background-color: #c2e7ff;
+  border-radius: 10px;
+  padding: 7px 0;
   cursor: pointer;
+}
+.compose-email img {
+  transform: scale(0.5);
+}
+
+.compose-email p:hover {
+  font-weight: 500;
+}
+
+.left-icons {
+  list-style-type: none;
+  margin: 30px 0 20px 7px;
+  padding: 0;
+}
+.left-icons li {
+  font-size: 18px;
+  margin: 20px 0;
+  padding: 5px 10px;
+}
+
+.left-icons li:hover {
+  cursor: pointer;
+  background-color: #c2e7ff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: 500;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0 20px 0;
+  cursor: pointer;
+}
+
+.label:hover {
+  background-color: #58a4d7;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.label section {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.label p {
+  font-size: 24px;
+  margin-right: 30px;
+}
+
+.right {
+  border: 1px solid rgb(219, 217, 217);
+  padding: 10px 20px;
+  background-color: #f6f8fc;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .search-bar {
@@ -19,58 +103,33 @@ body {
 }
 
 .search-bar input {
-  padding: 8px 50px;
-  border: none;
+  padding: 10px 40px;
   background-color: #eaf1fb;
+  border: none;
+  font-size: 18px;
   outline: none;
   border-radius: 10px;
-  width: 80%;
 }
 
-.search-icon {
-  position: absolute;
+.search-bar img {
   transform: scale(0.5);
-  left: 20px;
-  top: 3px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
 }
 
 .login-icons {
   transform: scale(0.6);
-  cursor: pointer;
 }
 
-.middle {
-  /* border: 1px solid red; */
-  padding: 30px 0;
-}
-
-.compose-email {
-  position: relative;
-  background-color: #c2e7ff;
-  border-radius: 10px;
-  padding: 17px 0px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.compose-email p {
-  font-size: 18px;
-  margin: 0;
-}
-
-.compose-email img {
-  position: absolute;
-  transform: scale(0.6);
-  top: 8px;
-  left: 0;
-}
-
-.email-types {
+.bottom .email-types {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.email-types h5 {
-  border-bottom: 1px solid;
-  cursor: pointer;
+.email-types a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
